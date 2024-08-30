@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="22682941" content="Huynh Le Hoan - Tuan02">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu 1c</title>
+    <style>
+    
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        #khung{
+            float: left;
+          
+            border: 2px solid rgb(185, 87, 38);
+           padding-bottom: 50px;
+        }
+        #header{
+            float: left;
+            width: 100%;
+            text-align: center;
+            padding-top: 30px;   
+            height: 85px;    
+            
+        }
+        #header h1{
+            color: #9f2c2d;
+            text-shadow: 3px 10px 10px rgb(218, 159, 159);
+            font-style: italic;
+            
+        }
+        #menu_n{
+            float: left;
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid rgb(151, 56, 21);
+            border-top: 1px solid rgb(151, 56, 21);
+            line-height: 40px;
+            background-color: rgb(233,148,151);
+        }
+        #section{
+            float: left;
+            width: 60%;
+            padding-left: 30px;
+        }
+        #aside{
+            float: left;
+            width: 25%;
+         height: 500px;
+            background-color:black;
+        }
+        #menu_d{
+            float: left;
+            width: 15%;
+            padding-top: 10px;
+            background-color: white;
+        }
+        #menu_d ul li{
+            display: block;
+          
+            list-style-type: none;
+            text-align: left;
+            border-radius: 30px 30px;
+            line-height: 30px;
+            background-color: rgb(233,148,151);
+            margin-bottom: 10px;
+            margin-left: -40px;
+        }
+        #menu_d ul li a{
+            text-decoration: none;
+            color: white;
+            padding-left: 10px;
+        }
+        #menu_d img{
+            width: 90%;
+            height: 100px;
+            margin-top: 20px;
+            border-radius: 50%;
+            box-shadow: 15px 15px 15px rgb(233,148,151);
+        }
+
+        #menu_n ul li{
+            display: inline-block;
+            border-right: 1px solid blue;
+            text-align: center;
+            width: 140px;
+           
+        }
+        #menu_n ul li a{
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            
+        }
+        #menu_n #sea, #go{
+            position: relative;
+            top: -42px;
+            right: -630px;
+        }
+        #menu_n img{
+            width: 25px;
+            height: 25px;
+            position: relative;
+            top: 7px;
+            right: -50px;
+        }
+        #section h1{
+            color: rgb(151, 56, 21);
+            background-color: rgb(233,148,151);
+            width: 400px;
+            padding-left: 30px;
+            letter-spacing: 10px;
+        }
+        #section a{
+            color: red;
+            font-weight: bold;
+
+        }
+        
+        #section #dong3{
+            text-transform: uppercase;
+            color: rgb(221, 170, 75);
+            font-weight: bold;
+        }
+        #section table{
+            width: 100%;
+            table-layout: fixed;
+            border-spacing: 0px;
+        }
+        #section table td{
+            padding: 5px;
+            padding-right: 30px;
+        }
+        #section input[type="text"], select, textarea {
+            width: 100%;
+            padding: 6px;
+        }
+        #aside h2{
+            color: white;
+        }
+        #aside h3,p {
+            color: white; 
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        #aside img{
+            width: 400px;
+            height: 150px;
+           padding-left: 40px;
+           padding-right: 60px;
+        }
+        
+        #footer{
+            float: left;
+            width: 100%;
+            height: 50px;
+            background-color: rgb(233,148,151);
+            border: 1px solid #9f2c2d;
+        }
+        #footer p{
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+            color: white;
+        }
+
+         </style>
+        </head>
+        <body>
+            <div id="khung">
+                <div id="header">
+                    <h1>EXAMPLE CAFE MENU</h1>
+                </div>
+
+                <div id="menu_n">
+                    <ul>
+                        <li><a href="#home"><img src="../images/icons8-home-50.png" alt=""></a></li>
+                        <li><a href="#Starter">Starter</a></li>
+                        <li><a href="#MainCourses">Main Courses</a></li>
+                        <li><a href="#Desserts">Desserts</a></li>
+                    </ul>
+                     <input type="search" name="sea" id="sea">
+                     <button id="go">Go</button>   
+                </div>
+            
+                <div id="menu_d">
+                    <ul>
+                        <li><a href="#Cafe">Cafe Latte</a></li>
+                        <li><a href="#Capuchino">Capuchino</a></li>
+                        <li><a href="#Blue">Ocean Blue</a></li>
+                        <li><a href="#Ice">Ice-cream Cafe</a></li>
+                        <li><a href="#Order">Order Online</a></li>
+                    </ul>
+                    <img src="../images/company.png" alt="">
+                   </div>
+
+                <div id="section">
+                    <h1>Starters</h1>
+                    <ul>
+                        <li>Chestnut and Mushroom Goujons (<a href="">v</a>)</li>
+                        <li>Goat Cheese (<a href="">v</a>)</li>
+                        <li id="dong3" >Honey Soy Chicken Kebabs (<a href="">v</a>)</li>
+                        <li>Seafood Salad (<a href="">v</a>)</li>
+                    </ul>
+                    <a href="CafeMenu.html">Back to top</a>
+                
+                    <h1>Desserts</h1>
+                    <ul>
+                        <li>Lemon Sorbet (<a href="">v</a>)</li>
+                        <li>Chocolate Mud Pie(<a href="">v</a>)</li>
+                        <li>Pecan Pie (<a href="">v</a>)</li>
+                        <li>Selection of fine Cheeses from Around the World (<a href="">v</a>)</li>
+                    </ul>
+                    </ul> 
+                    <a href="CafeMenu.html">Back to Top</a>
+                    <h1>INFORMATION</h1>
+               <table>
+                <tr>
+                    <td><input type="text" name="first" id="first" placeholder="First Name"></td>
+                    <td><input type="text" name="last" id="last" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="mail" id="mail" placeholder="Email"></td>
+                    <td><input type="text" name="phone" id="phone" placeholder="Telephone"></td>
+                </tr>
+                <tr>
+                    <td><select name="country" id="country" > 
+                        <option value="USA">USA</option>
+                        <option value="USA">USAaaaaaaaaaaaaaaaa</option>
+                    </select></td>
+                    <td><input type="radio" name="language" id="language">Vietnamese
+                    <input type="radio" name="language" id="language">Foreign</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea name="comment" id="comment" cols="40" rows="2" placeholder="Comment"></textarea>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Submit</button>
+                   <button>Cancel</button></td>
+                </tr>
+               </table>
+                </div>
+
+                <div id="aside">
+                    <h2>Events</h2>
+                    <h3>Regular Meetings</h3>
+                    <img src="../images/meeting.png" alt="">
+                    <p> Host your regular team meetings or activities in the comfort of your own private room.  <a href="#more" id="readmore">Read more</a> 
+                       
+                    </p>
+                  
+                    
+                    <h3>Product
+                        Launches</h3>
+                    <img src="../images/launch.png" alt="">
+                    <p>Launch your product with ease in a space that truly fits its image. 
+                        <a href="#more" id="readmore">Read more</a> </p>
+                </div>
+
+               <div id="footer">
+                     <p> ABC Company <sup>©</sup> - 12345678 - abccoffee@gmail.com</p>
+               </div>
+            
+        </div>
+            
+        </body>
+        </html>

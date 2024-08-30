@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 1000px;
+    height: 1150px;
+    background-image: url("../images/background.jpg");
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#nd #section1 ul li {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    list-style: none;
+   
+}
+#nd #section1 ul{ 
+  
+    margin-top: 10px;
+    gap: 20px;
+    background-color: white;
+    width: 210px;
+    height: 230px;    
+    border-bottom: 5px solid rgb(206, 199, 199);
+    border-right: 5px solid rgb(206, 199, 199);
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    box-shadow: 3px 3px 1px 3px rgb(142, 136, 136);
+    
+   
+}
+#nd #section1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    color: purple;
+   
+ 
+}
+#nd #section1{
+    float: left;
+    margin-right: 20px;
+}
+#nd #aside1{
+    border-left: 3px solid green;
+    
+    float: left;
+    width: 700px;
+    height: auto;
+   
+
+    padding: 10px;
+}
+#nd #aside1 h1{
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    letter-spacing: 10px;
+    padding-left: 50px;
+    width: 550px;
+    margin-left: 10px;
+}
+#nd #aside1 #nd1{
+    display: flex; 
+    column-gap: 20px 15px;
+}
+#nd #aside1 #nd1 p,p{
+    
+    font-size: 17px;
+    color: white;
+
+    padding: 10px;
+    
+  
+}
+#nd #aside1 #nd1 img{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+}
+#nd #TG{
+   font-style: italic;
+}
+#nd h3{
+    color: white;
+    background-color: green;
+   margin-left: 0;
+    width: 300px;
+
+}
+#nd #aside1 ul{
+  
+    color: white;
+   
+    width: 400px;
+    margin-left: 30px;
+    padding: 10px;
+}
+#footer{
+    margin-top: 10px;
+    float: left;
+    border-top: 5px double green;
+    width: 100%;
+}
+#footer address{
+    text-align: center;
+    color: white;
+  text-transform: uppercase;
+    padding: 10px;
+    
+}
