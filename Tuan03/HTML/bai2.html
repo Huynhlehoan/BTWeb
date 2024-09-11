@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="22682941" content="Huynh Le Hoan - tuan03">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai2</title>
+<style>
+    *{
+        box-sizing: border-box;
+        margin:0 auto;
+    }
+    #container{
+        width: 1100px;
+        height: 670px;
+        border: 2px solid #294D79;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    header{
+        background-color: #294D79;
+        
+        width: 100%;
+        height: 120px;
+        float: left;
+    }
+    header img{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 70px;
+        height: 90px;
+    }
+    header .tittle{
+        color: white;
+        font-size: 40px;
+        margin-top: -90px;
+        margin-left: 100px;
+
+     
+    }
+    header p{
+        color: white;
+        font-size: 20px;
+        
+        margin-left: 100px;
+    }
+    header input, .go{
+       border: 2px solid #3E72B2;
+       position: relative;
+        top: -80px;
+        left: 870px;
+        background-color: #1D3252;
+        color: white;
+        height: 25px;
+
+    }
+    ::placeholder {
+  color: white; 
+}
+
+    header ul li {
+        display: inline-table;
+        list-style-type: none;
+        padding: 5px;
+     
+    }
+    header ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+       padding-left: 10px;
+       padding-right: 10px;
+        line-height: 60px;
+        background-color:#3E72B2 ;
+        float: left;
+       position: relative;
+       top: -65px;
+       left: 440px;
+    }
+    aside{
+        float: right;
+        height: 500px;
+        width: 30%;
+        padding: 25px;
+        background-color: #F8F8F8;
+        color: #667886;
+      
+    }
+    aside hr{
+        margin-top: 15px;
+        border: 1px dashed;
+       
+    }
+    aside img{
+        margin-top: 25px;
+        width: 280px;
+        height: 100px;
+        border: 1px solid rgb(183, 173, 173);
+        padding: 5px;
+    }
+    aside p{
+        margin-top: 15px;
+        text-align: justify;
+        
+    }
+    aside a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #3E72B2;
+       padding-left: 180px;
+       
+    }
+    section{
+       
+        float: left;
+        width: 70%;
+        height: 500px;
+       padding: 20px;
+       color: #667886;
+       
+    }
+   
+    section  hr {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border: 1px dashed;
+    }
+    article{
+        display: flex;
+    }
+    article .ar2{
+        flex: 2;
+        display: inline;
+  
+        height: 500px;
+    }
+
+
+    article .ar2 table {
+     
+       margin-left: 20px;
+      width: 90%;
+       height: 50px;
+    }
+    article .ar2 table tr td input{
+        margin-bottom: 15px;
+        width: 180px;
+        height: 25px;
+    }
+    article .ar2 table tr td textarea{
+        width: 370px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+    article .ar2 p{
+        padding: 10px;
+        color: red;
+        font-size: 18px;
+        font-style: italic;
+        text-shadow: 5px 5px 4px green;
+       
+    }
+    article .ar3{
+        flex: 1.5;
+        padding-top: 10px;
+        color: #667886;
+        height: 500px;
+    }
+    article .ar3 ul li {
+        list-style: none;
+    }
+    article .ar3 h1{
+
+        font-size: 25px;
+    }
+    article .ar3 p{
+       padding-top: 10px;
+    }
+    article .ar3 .p2{
+        padding-top: 30px;
+    }
+    footer{
+        float: left;
+        width: 100%;
+        height: 50px;
+        background-color: #294D79;
+        line-height: 50px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
+    footer span{
+       color: #85B7E9;
+    }
+
+</style>
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <img src="../images/flower.png" alt="">
+            <p class="tittle">FlowerBox 360</p>
+            <p>...to get your daily close of luxury roses!
+            </p>
+            <input type="text" name="search" id="sea" placeholder="Search the site...">
+            <button class="go">Go</button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Promotion</a></li>
+                <li><a href="#">Gift Baskets</a></li>
+                <li><a href="#">Flowers Services</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+
+        <section>
+            
+                <h1>Why Not Contact Us Today!</h1>
+                <hr>
+         <article>
+            <article class="ar2">
+                
+                   <p>
+                    For FlowerBox 360 shopers, that means not only can you send your friends and loves ones the highest
+quality flowers found on online, but thatt you can do so at a great value.
+
+                   </p>
+                    <table>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><label for="mail">Email:</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="name" id="name"></td>
+                            <td><input type="text" name="mail" id="mail"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tele">Telephone:</label></td>
+                            <td><label for="sub">Subject:</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="tele" id="tele"></td>
+                            <td><input type="text" name="sub" id="sub"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><label for="mess">Messages</label></td>
+                          
+                        </tr>
+                        <tr>
+                            <td colspan="2"><textarea name="mess" id="mess"></textarea></td>
+                            
+                        </tr>
+                        <tr> 
+                            <td>
+                                <button>Submit</button>
+                                <button>Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                
+            </article>
+            <article class="ar3">
+            <ul>
+                <h1>FlowerBox 360 Infor!</h1>
+                <hr>
+                <p>
+                Operating Hours:
+                Monday-Friday:9:000am-5:00pm
+               Saturday:9.00am-1.00pm <br>
+                Sunday:Closed (No Deliveries) 
+                <br>
+                 ORDER ONLINE 24/7  </p>
+                <p class="p2">
+                Software Engineering Dept. <br>
+                Information Technology Faculty <br>
+                 First Floor, H Building <br> </p>
+                
+                <p>
+                12 Nguyen Van Bao, Ward 4,
+                Go Vap District, Ho Chi Minh City <br>
+                Tel: 0283.8940 390 <br>
+                Fax: 0283.9940 954
+            </p>
+                
+               
+            </ul>
+            <p></p>
+           
+            </article>
+        </article>
+        </section>
+
+        <aside>
+            <h1>Discounts & Specials</h1>
+            <hr>
+            <img src="../images/rose.png" alt="">
+         <p>FlowerBox 360 offers many great discounts throught the year, 
+            from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderfull troppps!
+            </p>
+            <p class="more"><a href="#">Read More >></a></p>
+               
+        </aside>
+
+        <footer>
+            Copyright &#169; 2017 - All Rights Reserved - <span> Software Engineering 
+            Department - Industrial University of Ho Chi Minh City </span>
+        </footer>
+    </div>
+</body>
+</html>

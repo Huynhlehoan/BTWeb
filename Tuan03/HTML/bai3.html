@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="22682941" content="Huynh Le Hoan - tuan03">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        #container{
+            width: 1000px;
+            height: 850px;
+            border: 2px solid #294D79;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        header{
+            float: left;
+            width: 100%;
+            height: 80px;
+            background-color: #A74E0E;
+        }
+        header h1{
+            color: #8B7A0C;
+            font-size: 40px;
+            line-height: 80px; 
+           margin-left: 40px;
+           letter-spacing: 5px;
+            text-shadow: -5px -5px 5px white;
+        }
+        menu{
+            float: left;
+            width: 100%;
+            height: 30px;
+            border-bottom: 2px solid black;
+            border-top: 2px solid black;
+            padding-left: 0px;
+        }
+        menu ul li{
+            display: inline-table;
+            list-style: none;
+            padding-left: 0px;
+        }
+         menu ul li a{
+            line-height: 25px;
+            text-decoration: none;
+            color: #CB9D70;
+            font-size: 20px;
+            font-weight: bold;
+            padding-right: 40px;
+        }
+        nav{
+            width: 100%;
+            height: 150px;
+            background-image: url(../images/line.png);
+            background-repeat: repeat-x;
+            background-size: 230px;
+         
+            float: left;
+        }
+        section{
+            float: left;
+            width: 100%;
+            height: 520px;
+            background-color: #F2E3C6;
+        }
+        section .c1{
+            width: 70%;
+            height: 520px;
+            float: left;
+            background-color: white;
+        }
+        section .c2{
+            width: 30%;
+            height: 520px;
+            float: left;
+            background-color: white;
+            border-left: 2px solid rgb(225, 216, 216);
+        }
+        section .c1 h1{
+            color: #A3880B;
+            letter-spacing:3px;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+        section .c1 p{
+            width: 80%;
+            color: #A3880B;
+          text-align: justify;
+            margin-left: 60px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        section .c1 input{
+            width: 80%;
+            height: 40px;
+            margin-left: 60px;
+            margin-top: 12px;
+           border: none;
+            border-bottom: 2px solid #c7c3c3;
+        }
+        ::placeholder {
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+            }
+        section .c1 button{
+            width: 20%;
+            height: 30px;
+            margin-left: 60px;
+            margin-top: 60px;
+            font-weight: bold;
+            background-color: #808000;
+            color: white;
+            border: none;
+            
+        }
+        section .c2 .khung{
+            width: 80%;
+            height: 200px;
+            margin-left: 35px;
+            margin-top: 40px;
+            background-color: #F9EAD5;
+            border-radius: 20px 20px 0px 0px;
+        }
+        section .c2 .khung h1{
+            color: #552C20;
+            letter-spacing: 3px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        section .c2 .khung ul{
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+        section .c2 .khung ul li{
+            list-style: square;
+            
+            padding-bottom: 5px;
+          
+        }
+        section .c2 .khung ul li a{
+            text-decoration: none;
+            color: #B98059;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        section .c2 h1{
+            color: #552C20;
+            letter-spacing: 3px;
+            margin-left: 45px;
+            margin-top: 20px;
+        }
+        section .c2 img{
+            width: 120px;
+            height: 80px;
+            margin-left: 45px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border: 1px solid #c7c3c3 ;
+            padding: 10px;
+            float: left;
+            margin-right: 15px;
+        }
+        section .c2 p{
+           width: 240px;
+           margin-top: 15px;
+           font-size: 17px;
+           text-align: justify;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           color: gray;
+           font-weight: 500;
+        }
+        footer {
+            clear: both;
+            float: left;
+            position: relative;
+            width: 100%;
+            height: 70px;
+            background-image: url(../images/footer.png);
+            background-repeat: repeat-x;
+            background-size: 200px;
+        }
+        footer .conner1, .conner2, .conner3, .conner4 {
+            position: absolute;
+            width: 50px;
+            height: 35px;
+        }
+        footer .conner1 {
+            top: 0;
+            left: 0;
+        }
+        footer .conner2 {
+            bottom: 0;
+            left: 0;
+        }
+        footer .conner3 {
+            top: 0;
+            right: 0;
+        }
+        footer .conner4 {
+            bottom: 0;
+            right: 0;
+        }
+        footer p{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>AUTUMN TRAVEL COMPANY</h1>
+    </header>
+
+    <menu>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Order</a></li>
+        </ul>
+
+    </menu>
+    <nav>
+        
+    </nav>
+    <section>
+        <div class="c1">
+            <h1>Sign up for membership benefits</h1>
+            <p>
+                Our philisophical are transparency, respect,
+	formality and responsibility. Our stimulus is your enthusiasm. 
+	Our motto is your satisfation.
+
+            </p>
+            <input type="text" name="user" id="user" placeholder="Username">
+            <input type="text" name="email" id="email" placeholder="E-mail">
+            <input type="text" name="pass" id="pass" placeholder="Password">
+            <input type="text" name="retype" id="retype" placeholder="Retype password">
+
+            <button>SIGN ME UP</button>
+        </div>
+        <div class="c2">
+            <div class="khung">
+                <h1>Links</h1>
+                <ul>
+                    <li><a href="#">Make your Own Tour </a></li>
+                    <li><a href="#">Maldives Tours</a></li>
+                    <li><a href="#">Nature & Adventure</a></li>
+                    <li><a href="#">Readymade Tours</a></li>
+                    <li><a href="#">Europe Tours</a></li>
+                    <li><a href="#">Rusia Tours</a></li>
+                  
+                </ul>
+            </div>
+            <h1>More Info</h1>
+            <img src="../images/leaf.png" alt="">
+           <p> Our purpose is the client who gives to us the opportunites to serve and to make known the reality arround the world.
+        </p>
+            
+        </div>
+    </section>
+
+    <footer>
+        <img src="../images/corner1.png" alt="Top Left" class="conner1">
+        <img src="../images/corner2.png" alt="Bottom Left" class="conner2">
+        <img src="../images/corner3.png" alt="Top Right" class="conner3">
+        <img src="../images/corner4.png" alt="Bottom Right" class="conner4">
+       <p>&#169; 2017 Software Engineering Department | Test Date: 16 Sep 2017</p> 
+
+    </footer>
+</div>
+</body>
+</html>
